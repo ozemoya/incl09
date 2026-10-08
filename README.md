@@ -28,7 +28,7 @@ Tests used an Android Pixel 7 Pro emulator (Android 17). The version-1 install a
 | T5 | Cancel and confirm card/folder deletion | Canceling card ID 3 deletion changed nothing. Confirming removed that card and made Moon count 1. Canceling Moon deletion changed nothing. Confirming folder ID 1 deletion removed remaining card ID 2 by cascade; Lantern and Beacon remained, as did all guests. Pass. |
 | T6 | Null image and invalid inputs | Beacon with null `image_ref` displayed a Hearts placeholder and its title. Whitespace-only card title, blank folder name, and duplicate `Lantern` folder name produced feedback; persisted counts remained Lantern 1 and Beacon 1. Pass. |
 
-The app was analyzed with no issues (`analysis_output.txt`). The screenshots show the original roster, duplicate-title cards, and cards after restart. T1b uses a separate test package copied from the version-2 source; it is not part of this submission repository. No automated UI test is claimed.
+The app was analyzed with no issues (`analysis_output.txt`). I installed the release APK over the same app, opened it, and saw all three original guest rows plus Lantern with one card after the T5 deletion sequence. The screenshots show the original roster, duplicate-title cards, and cards after restart. T1b uses a separate test package copied from the version-2 source; it is not part of this submission repository. No automated UI test is claimed.
 
 ## Decisions and limits
 
