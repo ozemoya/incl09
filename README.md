@@ -36,4 +36,4 @@ The cascade rule is suitable for this disposable card catalogue but would be ris
 
 ## Attribution
 
-I used OpenAI Codex to assist with implementation and writing. The reported database rows, screenshots, and device actions above were independently checked on the emulator; the AI did not supply those results. Assignment reference: [Activity 09 Local Storage Part II](https://codd.cs.gsu.edu/~lhenry23/mad/ica/act09/v2/index.html).
+I used Gemini AI for conceptual help and an AI coding assistant for implementation and writing. The reported database rows, screenshots, and device actions above were independently checked on the emulator; the AI did not supply those results. Assignment reference: [Activity 09 Local Storage Part II](https://codd.cs.gsu.edu/~lhenry23/mad/ica/act09/v2/index.html).
